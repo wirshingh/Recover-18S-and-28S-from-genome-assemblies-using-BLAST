@@ -1,4 +1,4 @@
-### Script for extracting specific loci (18S and 28S) from genomic assemblies 
+## Script for extracting specific loci (18S and 28S) from genomic assemblies 
 ```
 #extractnucribo.sh
 #!/bin/sh
