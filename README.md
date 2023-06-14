@@ -29,8 +29,8 @@ Copy the entire script below into a text editor (BBedit) and save as "extractnuc
 #Third, the programs blast (ncbi-blast-2.13.0+.dmg) 
 #found at https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
 #and seqtk (https://github.com/lh3/seqtk) must be installed on the computer used.
-#NOTE: THE FULL PATH THE SEQTK EXECUTABLE is used for this script.
-#In Line 81, change the path to the location of seqtk.
+#NOTE: IF SEQTK IS NOT INSTALLED TO BIN, USE THE FULL PATH THE SEQTK EXECUTABLE 
+#In Line 86, change the path to the location of seqtk.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -82,7 +82,8 @@ done
 for filename in *_L002_contigs.fasta
 do
 basename=$(basename ${filename} _L002_contigs.fasta)
-/Users/hermanwirshing/Desktop/Nucular\ Ribosomal\ Gene\ Extraction\ Scripts/seqtk/seqtk subseq ${basename}_L002_contigs.fasta ${basename}.lst > ${basename}.unique.fasta
+#[USE FULL PATH TO SEQTK IF NOT IN BIN] 
+seqtk subseq ${basename}_L002_contigs.fasta ${basename}.lst > ${basename}.unique.fasta
 done
 
 
