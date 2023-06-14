@@ -37,7 +37,7 @@ Copy the entire script below into a text editor (BBedit) and save as "extractnuc
 #TO RUN SCRIPT 
 #This script must be in the same directory as the reference fasta files (*.ribodb.fasta)
 #and the assemblies (some form of *_L002_contigs.fasta). 
-#Type "sh extractNucRibos.sh"
+#Type "sh extractnucribo.sh"
 #The extracted 18S and 28S sequences will be in a folder called "nuc_ribo_outputs" 
 #Depending on the amount of assemblies run, it will take a few to several minutes
 #to complete.
