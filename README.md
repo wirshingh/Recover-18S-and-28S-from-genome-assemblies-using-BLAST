@@ -30,7 +30,7 @@ Copy the entire script below into a text editor (BBedit) and save as "extractnuc
 #found at https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
 #and seqtk (https://github.com/lh3/seqtk) must be installed on the computer used.
 #NOTE: IF SEQTK IS NOT INSTALLED TO BIN, USE THE FULL PATH THE SEQTK EXECUTABLE 
-#In Line 86, change the path to the location of seqtk.
+#In Line 81, change the path to the location of seqtk.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
