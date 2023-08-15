@@ -22,7 +22,7 @@ Copy the entire script below into a text editor (BBedit) and save as "extractnuc
 #Second, the assembly files can end with "_L002_contigs.fasta", the output of Spades.
 #If your assemblies have a different file name ending, modify the filename in the 
 #script below in Step 2.
-#For example, change the "*_L002_contigs.fasta" in line 57 to match your assembly 
+#For example, change the "*_L002_contigs.fasta" in steps 2 and 4 to match your assembly 
 #file names. It MUST be a wildcard unique to only and all the assembly files, and
 #have the sample name in front of the wildcard.
 
